@@ -1,0 +1,71 @@
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# compiled output
+dist
+tmp
+out-tsc
+*.tsbuildinfo
+.expo
+.expo-shared
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+*.log
+/output/playwright/
+
+# local environment files (keep templates only)
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# local scripts that may contain development credentials
+/test-db.js
+/test_schema.js
+/test_supabase.js
+/lib/db/test-db.cjs
+
+# Vercel local project metadata
+.vercel
+# The prebundled Vercel Function is tracked so Vercel can discover it before
+# running the build command. Rebuild it with scripts/build-vercel-api.mjs.
+
+
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md
+
+# Replit
+/.pnpm-store/
+.cache/
+.local/

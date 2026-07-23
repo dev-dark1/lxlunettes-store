@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "LXLunettes"
+version = "1.0.0"
+id = "artifacts/lxlunettes"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25461
+
+[services.development]
+run = "pnpm --filter @workspace/lxlunettes run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/lxlunettes", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/lxlunettes/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25461"
+BASE_PATH = "/"

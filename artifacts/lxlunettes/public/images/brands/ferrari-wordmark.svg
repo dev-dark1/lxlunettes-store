@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 110" role="img" aria-labelledby="title">
+  <title id="title">Ferrari</title>
+  <defs><linearGradient id="f" x1="0" x2="1"><stop stop-color="#ffcf00"/><stop offset="1" stop-color="#f5a800"/></linearGradient></defs>
+  <path fill="url(#f)" d="M12 12h82v70L53 103 12 82z"/>
+  <path fill="#138a43" d="M12 12h27v8H12z"/><path fill="#fff" d="M39 12h28v8H39z"/><path fill="#d8232a" d="M67 12h27v8H67z"/>
+  <path fill="#151515" d="M34 68c8-20 12-33 29-35-8 7-8 14-4 20 7-5 12-7 19-5-8 5-12 10-14 19l-4 18h-8l2-15c-8 7-15 9-25 8 7-3 11-6 15-10-4 1-7 1-10 0z"/>
+  <text x="112" y="76" fill="#d71920" font-family="Arial Black,Arial,sans-serif" font-size="58" font-style="italic" font-weight="900" letter-spacing="-3">FERRARI</text>
+</svg>

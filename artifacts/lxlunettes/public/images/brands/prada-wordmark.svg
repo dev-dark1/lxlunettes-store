@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 110" role="img" aria-labelledby="title">
+  <title id="title">Prada Milano</title>
+  <defs><linearGradient id="p" x1="0" x2="1"><stop stop-color="#b38a36"/><stop offset=".5" stop-color="#f0d486"/><stop offset="1" stop-color="#9a6d1c"/></linearGradient></defs>
+  <path d="M20 85h380" stroke="url(#p)" stroke-width="2"/>
+  <text x="210" y="66" text-anchor="middle" fill="#171717" stroke="#d6b45f" stroke-width=".35" font-family="Times New Roman,serif" font-size="61" font-weight="700" letter-spacing="8">PRADA</text>
+  <text x="210" y="101" text-anchor="middle" fill="#9a762d" font-family="Arial,sans-serif" font-size="13" letter-spacing="8">MILANO</text>
+</svg>
